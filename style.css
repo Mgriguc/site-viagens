@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+* {
+    font-family: 'Varela Round';
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.button-search {
+    padding: 4px 7px;
+    box-shadow: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: rgb(28, 72, 204);
+    color: whitesmoke;
+    border-radius: 8px;
+    box-shadow: 0.2rem 0.2rem 2px black;
+    font-weight: bold;
+}
+
+header {
+    height: calc(100vh - 100px);
+    width: 100%;
+    background: no-repeat center/cover;
+    background-image: url('../site-viagens/img/viagem-bras.jpg');
+}
